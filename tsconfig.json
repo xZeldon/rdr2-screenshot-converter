@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+	  "target": "es5",
+	  "module": "commonjs",
+	  "lib": ["es2016"],
+	  "moduleResolution": "node",
+	  "sourceMap": true,
+	  "noImplicitAny": false,
+	  "suppressImplicitAnyIndexErrors": true,
+	  "removeComments": true,
+	  "preserveConstEnums": true,
+	  "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+	}
+}

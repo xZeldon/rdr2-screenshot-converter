@@ -1,0 +1,34 @@
+{
+  "name": "rdr2-converter",
+  "description": "A simple Converter that converts screenshots taken in the game Red Dead Redemption 2 to JPG format",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "license": "MIT",
+  "author": {
+    "name": "xZeldon (Timofey)",
+    "email": "xzeldon@yandex.ru"
+  },
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "start": "ts-node src/app.ts",
+    "compile": "yarn build && node scripts/compile"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.1",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "nodemon": "^2.0.3",
+    "pkg": "^4.4.7",
+    "pkg-fetch": "^2.6.6",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "buffertrim": "^1.0.0",
+    "chalk": "^4.0.0"
+  }
+}
